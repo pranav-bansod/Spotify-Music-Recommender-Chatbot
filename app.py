@@ -19,9 +19,9 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'enter-a-very-secretive-key-3479373'
 
 
-spotify_data = pd.read_csv(r'C:\Users\eleme\Downloads\SpotifyRecommenderSystem-master\data.csv')
-genre_data = pd.read_csv(r'C:\Users\eleme\Downloads\SpotifyRecommenderSystem-master\data_by_genres.csv')
-data_by_year = pd.read_csv(r'C:\Users\eleme\Downloads\SpotifyRecommenderSystem-master\data_by_year.csv')
+spotify_data = pd.read_csv('data.csv')
+genre_data = pd.read_csv('data_by_genres.csv')
+data_by_year = pd.read_csv('data_by_year.csv')
 
 
 def get_decade(year):
