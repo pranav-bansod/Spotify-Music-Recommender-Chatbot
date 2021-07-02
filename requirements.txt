@@ -41,7 +41,7 @@ six==1.16.0
 soupsieve==2.2.1
 spotifyscraper==1.0.5
 spotipy==2.18.0
-tensorflow==2.5.0
+tensorflow-cpu==2.5.0
 threadpoolctl==2.1.0
 toml==0.10.2
 tqdm==4.61.1
