@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey","Namaste", "Hi"],
+     "responses": ["Hey there! How can i assist you today?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye","Nice Chatting to you, bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Adios", "Sayonara", "Peace out", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Make sure you used keyword"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you",  "Tell me about yourself", "You are"],
+      "responses": ["I am Music Recommender , created by Pranav Bansod",  "My creator, Pranav Bansod calls me CB for short", "I am Music Recommender Chatbot, my creator (Pranav Bansod) calls me CB"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can recommend songs. Just type a song name with keyword search (eg. Search Thunder) or tell me  your current mood with keyword feeling (eg. Feeling Sad)"]
+      },
+      {"tag": "search",
+       "patterns": ["Search", "Can you search", "Please search"],
+       "responses": ["aloha"]
+      },
+      {"tag": "feeling",
+         "patterns": ["Feeling", "I am Feeling"],
+         "responses": ["aloha1"]
+      },
+      {"tag": "top",
+         "patterns": ["Can you suggest me top songs", "can you recommend me some top songs","top 10 songs","what are the top 10 songs","recommend me top 10 songs","best songs","famous songs"],
+         "responses": ["aloha2"]
+      },
+      {"tag": "spotify",
+         "patterns": ["what is the source of the recommendations", "from where do you recommend songs","which app you use for recommendations"],
+         "responses": ["Good Question! I use Spotify to provide you awesome recommendations."]
+      }
+  ]
+}
