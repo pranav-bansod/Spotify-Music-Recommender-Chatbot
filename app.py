@@ -2,20 +2,15 @@ from flask import Flask, render_template, jsonify, request
 import processor
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import spotipy
 import pickle
-import os
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.decomposition import PCA
 from spotipy.oauth2 import SpotifyClientCredentials
-from collections import defaultdict
 from bs4 import BeautifulSoup
 import requests
-from selenium import webdriver
 from SpotifyScraper.scraper import Scraper, Request
 
 
