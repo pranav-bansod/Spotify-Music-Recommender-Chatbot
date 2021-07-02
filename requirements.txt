@@ -20,6 +20,7 @@ Jinja2==3.0.1
 joblib==1.0.1
 lxml==4.6.3
 MarkupSafe==2.0.1
+nltk==3.6.2
 numpy==1.21.0
 packaging==20.9
 pandas==1.2.5
